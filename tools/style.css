@@ -22,12 +22,24 @@ div#content {
   width: 100%;
 }
 
-h1 {
-  color: #fff;
-  letter-spacing: -1px;
-  font-size: 40px;
-}
+  h1 {
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 40px;
+  }
 
-h2 {
-  font-size: 20px;
+  h2 {
+    font-size: 20px;
+  }
+
+@media only screen (max-device-width : 728px) {
+  h1 {
+    color: red;
+    letter-spacing: -1px;
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
 }
