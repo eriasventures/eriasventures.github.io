@@ -23,7 +23,8 @@ div#content {
 }
 
   h1 {
-    color: #fff;
+    # color: #fff;
+    color: orange;
     letter-spacing: -1px;
     font-size: 40px;
   }
