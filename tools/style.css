@@ -17,7 +17,7 @@ body {
 div#content {
   text-align: center;
   position: absolute;
-  top: 25%;
+  top: 15%;
   width: 100%;
 }
 
@@ -32,7 +32,7 @@ h2 {
   color: #b45263;
 }
 
-h3 {
+h3, h6 {
   color: white;
 }
 
