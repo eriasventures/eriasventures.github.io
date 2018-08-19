@@ -17,8 +17,7 @@ body {
 div#content {
   text-align: center;
   position: absolute;
-  top: 50%;
-  bottom: 50%;
+  top: 25%;
   width: 100%;
 }
 
@@ -30,6 +29,11 @@ h1 {
 
 h2 {
   font-size: 20px;
+  color: #b45263;
+}
+
+h3 {
+  color: white;
 }
 
 img {
@@ -45,6 +49,7 @@ img {
 
   h2 {
     font-size: 50px;
+	color: #b45263;
   }
 
   img {
