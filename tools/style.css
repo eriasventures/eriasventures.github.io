@@ -6,7 +6,7 @@ a {
   color: #b45263;
 }
 
-html,body {
+html, body {
   height: 100%;
 }
 
@@ -50,6 +50,11 @@ img {
   h2 {
     font-size: 50px;
     color: #b45263;
+  }
+  
+h3, h6 {
+    font-size: 30px;
+	color: white;
   }
 
   img {
