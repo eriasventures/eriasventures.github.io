@@ -1011,7 +1011,7 @@ mark {
 			.tiles article > a .content {
 				transition: max-height 0.5s ease, opacity 0.5s ease;
 				opacity: 0;
-				font-size: 1em;
+				font-size: 0.85em;
 				margin-bottom: 1em;
 			}				
 			
@@ -1719,7 +1719,7 @@ mark {
 				border-right-width: 0px;
 				border-bottom-width: 2px;
 				padding-bottom: 0.5em;
-				width: 95%;
+				width: 100%;
 			}		
 				.footer.half > :last-child {
 					border-width: 0px;
@@ -1767,11 +1767,18 @@ mark {
 		#erias {
 			width: 70%;
 		}
-				
-		.footer.half > :last-child {
-			padding: 0;
+
+		ul.social-icons {
+			flex-direction: column;
+			
 		}
+
+			ul.social-icons li {
+				width: 15%;
+				font-size: 2em;
+			}
 		
+
 	}		
 
 /* Navigation Panel */
