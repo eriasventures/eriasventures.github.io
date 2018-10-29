@@ -1110,7 +1110,11 @@ mark {
 		/* #One = Index */
 
 			/* #one - Tiles */
-			font.bar {
+			.bar {
+				color: #b45364;
+			}				
+			
+			.bar2 {
 				color: #b45364;
 			}		
 			.bar1 {
@@ -1681,9 +1685,6 @@ mark {
 					padding-bottom: 0;
 				}
 		
-		.footer.half > :last-child {
-			padding: 0 2em;
-		}	
 	}
 /* max-width: 480 */		
 	@media screen and (max-width: 480px) {
@@ -1692,21 +1693,13 @@ mark {
 			margin-bottom: 1.3em;
 			max-width: calc(95%);
 		}
-	
-		#one h2, #two h2, #three h2, #four h2, #five h2, 
-		#six h2, #seven h2, #footer h2 {
-			font-size: 1.4em;
-		}
 		#one h2 {
-			line-height: 1.8em;
-			margin: 0px;
+			margin: 0 ;
 		}
 		div.inner {
 			padding: 1em;
 		}	
-	
-
-				
+					
 		body {
 			margin-top: -4em;
 		}		
@@ -1718,47 +1711,36 @@ mark {
 		.tiles {
 			display: none;
 		}
-		
-		#two.spotlight ul.actions {
-			display: none;
-			}
-					.share {
+					
+		.footer.half {
 			flex-direction: column;
-		}		
-				
-		.share > :first-child {
-			border-width: 0px;
-		}		
-		
-		.share > :nth-child(2) {
-			border-width: 0px;
-		}	
-		
-		.four.half > :first-child {
-			width: 100%;
-		}		
-			.four.half > :last-child {
-				border-width: 0px;
-				width: 100%;
-				padding-bottom: 0;
-			}
-		.footer.half > :last-child {
-			padding: 0;
+		}
+			.footer.half > :first-child {
+				border-right-width: 0px;
+				border-bottom-width: 2px;
+				padding-bottom: 0.5em;
+				width: 95%;
+			}		
+				.footer.half > :last-child {
+					border-width: 0px;
+					width: 100%;
+					padding-top: 1em;
+					padding-bottom: 0;
+				}
+		ul.social-icons li.right {
+			padding-right: 1.4em;
 		}
 		
-		.ji2 {
-			padding-right: 1em; 
-			}
-		
-		font.bar {
+		.bar {
 			color: #b45364;
 			display: none;
 		}		
 		
-		font.vertical {
+		span.vertical {
 			border-bottom: 3px solid #b45364;	
 			padding-bottom: 5px;
-		}
+			margin: auto;
+		}		
 		
 		#underline {
 			border-bottom: 3px solid #b45364;	
@@ -1774,10 +1756,6 @@ mark {
 			max-width: calc(95%);
 		}
 	
-		#one h2, #two h2, #three h2, #four h2, #five h2, 
-		#six h2, #seven h2, #footer h2 {
-			font-size: 1.2em;
-		}
 		#one h2 {
 			line-height: 2em;
 		}
