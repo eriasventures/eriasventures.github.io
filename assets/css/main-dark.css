@@ -1729,6 +1729,11 @@ mark {
 				}
 		ul.social-icons li.right {
 			padding-right: 1.4em;
+			border: 0px;
+		}		
+		
+		ul.social-icons li#top {
+			border: 0px;
 		}
 		
 		.bar {
@@ -1767,18 +1772,6 @@ mark {
 		#erias {
 			width: 70%;
 		}
-
-		ul.social-icons {
-			flex-direction: column;
-			
-		}
-
-			ul.social-icons li {
-				width: 15%;
-				font-size: 2em;
-			}
-		
-
 	}		
 
 /* Navigation Panel */
