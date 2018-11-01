@@ -1724,15 +1724,29 @@ mark {
 				.footer.half > :last-child {
 					border-width: 0px;
 					width: 100%;
-					padding-top: 1em;
-					padding-bottom: 0;
+					padding: 0;
+					margin: auto;
 				}
+		ul {
+			padding-left: 0;
+		}
+		
+		ul li {
+			padding-left: 0;
+		}
+		ul.social-icons {
+			flex-direction: inline-flex;
+			flex-wrap: nowrap;
+			border: 0px;
+		}		
+			
 		ul.social-icons li.right {
-			padding-right: 1.4em;
+			padding-right: 0em;
 			border: 0px;
 		}		
 		
 		ul.social-icons li#top {
+			padding-top: 0;
 			border: 0px;
 		}
 		
@@ -1747,6 +1761,9 @@ mark {
 			margin: auto;
 		}		
 		
+		.portal {
+			margin-left: 10px;
+		}
 		#underline {
 			border-bottom: 3px solid #b45364;	
 			padding-bottom: 5px;
