@@ -1763,7 +1763,6 @@ table tbody tr {
     border-right: 0;
 }
 table td {
-    5;
     vx padding: 0.75em 0.75em;
 }
 table th {
@@ -1915,3 +1914,4 @@ form :-ms-input-placeholder {
 }
 form ::-moz-focus-inner {
     border: 0;
+}
