@@ -1281,19 +1281,11 @@ p.copyright {
 }
 /* #Footer - Employee Portal*/
 
-.portal {
-    margin-left: -43px;
-    margin-bottom: 0.7em;
+p.copyright a {
+    color: #86868f;
 }
-.portal a {
-    margin: auto;
-    color: #fafafa;
-    text-align: center;
-    padding-left: -15px;
-}
-.portal a:hover {
-    color: #03041c;
-    background-color: #fafafa;
+p.copyright a:hover {
+	color: #D0D0D0;
 }
 /* Social Icons Footer */
 
@@ -1348,11 +1340,6 @@ ul.social-icons li a:hover {
     }
     body {
         margin-top: -1em;
-    }
-    div.vert {
-        /* border-bottom: 2px solid red; */
-        /* width: 80%; */
-        /* margin: auto; */
     }
 }
 /* max-width: 980 */
