@@ -1272,7 +1272,6 @@ ul.jobid li {
 .footer.half> :last-child {
     border-width: 0px;
     width: 50%;
-    padding: 0 6em;
     margin: auto;
 }
 p.copyright {
@@ -1290,41 +1289,37 @@ p.copyright a:hover {
 /* Social Icons Footer */
 
 .social {
-    margin: auto;
 }
-ul.social-icons {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -moz-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    list-style: none;
-}
+
 ul.social-icons li {
     width: 35%;
     font-size: 2em;
+	padding: 0.25em;
 }
-ul.social-icons li#top {
-    border-top-width: 2px;
-    border-color: rgba(61, 61, 61, 0.32);
-    border-style: solid;
-}
-ul.social-icons li.right {
-    border-right-width: 2px;
-    border-color: rgba(61, 61, 61, 0.32);
-    border-style: solid;
-    padding-right: 1.6em;
-}
+
 ul.social-icons li a {
-    display: block;
+    
     color: #b45364;
 }
+
 ul.social-icons li a:hover {
     color: #5e5e5e;
 }
+
+ul {
+	padding-left: 0;
+}
+
+ul li {
+	padding-left: 0;
+}
+
+ul.social-icons {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	border: 0px;
+}
+
 /* max-width: 1280 */
 
 @media screen and (max-width: 1280px) {
@@ -1514,25 +1509,6 @@ ul.social-icons li a:hover {
         width: 100%;
         padding: 0;
         margin: auto;
-    }
-    ul {
-        padding-left: 0;
-    }
-    ul li {
-        padding-left: 0;
-    }
-    ul.social-icons {
-        flex-direction: inline-flex;
-        flex-wrap: nowrap;
-        border: 0px;
-    }
-    ul.social-icons li.right {
-        padding-right: 0em;
-        border: 0px;
-    }
-    ul.social-icons li#top {
-        padding-top: 0;
-        border: 0px;
     }
     .bar {
         color: #b45364;
