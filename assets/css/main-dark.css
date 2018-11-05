@@ -1200,9 +1200,14 @@ h4#name {
 }
 .three.half> :last-child {
     border-width: 0px;
-    width: 60%;
+    width: 80%;
     padding-bottom: 0;
 }
+
+ul.jobs {
+	padding-left: 1em;
+}
+
 ul.jobs li {
     list-style: disc;
     margin: 0 auto;
@@ -1211,6 +1216,7 @@ ul.jobs li {
     text-align: left;
     color: #5e5e5e;
 }
+
 .jobreq {
     text-decoration: underline;
     margin-top: 2em;
