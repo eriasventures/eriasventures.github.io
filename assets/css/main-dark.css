@@ -1537,6 +1537,10 @@ ul.social-icons {
         border-bottom: 3px solid #b45364;
         padding-bottom: 5px;
     }
+	
+	div.inner-footer {
+		padding: 1em 1em 1em 1em;
+	}
 }
 /* max-width: 360 */
 
