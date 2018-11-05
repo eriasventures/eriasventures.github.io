@@ -921,6 +921,11 @@ body.is-touch .tiles article .content {
 div.inner {
     padding: 2.5em;
 }
+
+div.inner-footer {
+    padding: 1em 0 1em 0;
+}
+
 #one, #two, #three, #four, #footer {
     padding: 0;
     margin: 0 auto;
