@@ -1204,6 +1204,18 @@ h4#name {
     padding-bottom: 0;
 }
 
+ul.expertise {
+	padding-left: 1em;
+}
+
+ul.expertise li {
+    list-style: disc;
+    margin: 0 auto;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
 ul.jobs {
 	padding-left: 1em;
 }
