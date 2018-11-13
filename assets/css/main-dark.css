@@ -378,61 +378,6 @@ ul.icons li:last-child {
 ul.icons li .icon:before {
     font-size: 1em;
 }
-/* Major Icons 
-
-	ul.major-icons {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		list-style: none;
-		margin: 3em 0;
-		padding: 0;
-		color: #b45364;
-	}
-
-		ul.major-icons:last-child {
-			margin-bottom: 2em;
-		}
-
-		ul.major-icons li {
-			display: inline-block;
-			border-style: solid;
-			border-left-width: 1px;
-			min-width: 15em;
-			padding: 0;
-		}
-		
-		ul.major-icons li a {
-			color: #b45364;
-		}
-		
-		ul.major-icons li a:hover {
-			color: #5e5e5e;
-		}
-
-			ul.major-icons li:first-child {
-				border-left: 0;
-				margin-left: 0;
-				padding-left: 0;
-			}
-
-			ul.major-icons li h3 {
-				font-size: 0.8em;
-				color: #b45364;
-			}
-
-			ul.major-icons li > :last-child {
-				margin-bottom: 0;
-			}
-		ul.major-icons li {
-			border-color: #b45364;
-		}
-		*/
 
 /* Grid Icons */
 
@@ -530,9 +475,7 @@ body {
 #header.reveal {
     background-color: #03041c;
 }
-#iframe {
-    background-color: #fafafa;
-}
+
 /* Main */
 
 #main>header {
@@ -680,69 +623,6 @@ body.is-preload #main>header .logo {
     box-shadow: none;
     position: absolute;
 }
-/* Drop Menu */
-
-/*	
-	.dropotron {
-		background: #2b2e3c;
-		border-radius: 1.5em;
-		box-shadow: 0 0.05em 0.175em 0 #ffffff;
-		list-style: none;
-		margin-top: -0.75em;
-		min-width: 10em;
-		padding: 0.75em 0;
-	}
-
-		.dropotron li {
-			padding: 0;
-		}
-
-			.dropotron li a {
-				-moz-transition: none !important;
-				-webkit-transition: none !important;
-				-ms-transition: none !important;
-				transition: none !important;
-				border: 0;
-				box-shadow: inset 0 1px 0 0 #fff;
-				color: #fff;
-				display: block;
-				line-height: 2.25em;
-				padding: 0 1em;
-			}
-
-			.dropotron li:first-child > a {
-				box-shadow: none;
-			}
-
-			.dropotron li.active > a, .dropotron li:hover > a {
-				background: #b45364;
-				color: #fff !important;
-			}
-
-		.dropotron.level-0 {
-			font-size: 0.9em;
-			margin-top: 0.75em;
-		}
-	
-			.dropotron.level-0:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-o-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
-				background: #2b2e3c;
-				content: '';
-				display: block;
-				height: 0.75em;
-				position: absolute;
-				left: 50%;
-				top: -0.375em;
-				width: 0.75em;
-				margin-left: -0.375em;
-				box-shadow: inset 1px 1px 0 0 #fff;
-				box-shadow: -1px -1px 2px 0 #fff;
-			}
-		*/
 
 /* Logo */
 
@@ -751,7 +631,7 @@ body.is-preload #main>header .logo {
     margin-top: -15px;
 }
 #leaf {
-    width: 2.5%;
+    width: 2.1%;
     height: auto;
     margin: auto;
     margin-top: -3px;
@@ -925,6 +805,12 @@ div.inner {
 div.inner-footer {
     padding: 1em 0 1em 0;
 }
+div.vert {
+	border-bottom: 2px solid #3d3d3d;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 1em;
+}
 
 #one, #two, #three, #four, #footer {
     padding: 0;
@@ -961,7 +847,6 @@ h3.vert1 {
 }
 h3.vert2 {
     border-bottom: 2px solid #ffa343;
-    ;
 }
 h3.vert3 {
     border-bottom: 2px solid #89bdc0;
@@ -1003,92 +888,53 @@ font.b {
     width: 100%;
     padding: 0em 1em;
 }
-/* #One - Team */
 
-h4#name {
-    font-weight: 800;
-}
-.team {
-    display: -moz-inline-flex;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flex;
-    display: inline-flex;
-    padding-bottom: 0;
-    width: 100%;
-}
-.team> :first-child {
-    border-right-width: 2px;
-    border-color: #b45364;
-    border-style: solid;
-    border-radius: 0px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0em 1em;
-}
-.team> :last-child {
-    border-width: 0px;
-    width: 100%;
-    padding: 0em 1em;
-}
-.team.image {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    width: 25%;
-    border-radius: 50%;
-}
+
 /* #Two = Expertise */
 
-#two h2, #two h3, #two p, #two b {
+#two h2, #two p, #two b {
     color: #fff;
+}
+#two h3 {
+    color: #fff;
+	margin-bottom: 0px;
 }
 #two p, #two b {
     text-align: left;
-}
+}	
 #two {
     background-image: none;
 }
-#two.style1
-/*SystemEng*/
 
+#two.style1  /*SystemEng*/
     {
     background-color: #7d7d7d;
 }
 #two.style1 .image {
     border-radius: 1.5em 0 0 1.5em;
 }
-#two.style2
-/*Software*/
-
+#two.style2  /*Software*/
     {
     background-color: #316e9d;
 }
 #two.style2 .image {
     border-radius: 0 1.5em 1.5em 0;
 }
-#two.style3
-/*AutoDissem*/
-
+#two.style3  /*AutoDissem*/
     {
     background-color: #577a72;
 }
 #two.style3 .image {
     border-radius: 1.5em 0 0 1.5em;
 }
-#two.style4
-/*Cyber*/
-
+#two.style4  /*Cyber*/
     {
     background-color: #629bbd;
 }
 #two.style4 .image {
     border-radius: 0 1.5em 1.5em 0;
 }
-#two.style5
-/*DataScience*/
-
+#two.style5  /*DataScience*/
     {
     background-color: #75b1a5;
 }
@@ -1129,7 +975,10 @@ h4#name {
 }
 /* #Three = Careers */
 
-#three h2, #three h3, #three p, #three b {}
+#three h3 {
+ 	margin-bottom: 0px;
+}
+
 .three.half {
     display: -moz-flex;
     display: -webkit-flex;
@@ -1138,55 +987,45 @@ h4#name {
     padding-bottom: 0;
     width: 100%;
 }
-#three.style1
-/*SystemEng*/
-
-    {
-    color: #7d7d7d;
-    border: 5px solid #7d7d7d;
-}
 #three.style1 h3 {
     color: #7d7d7d;
-}
-#three.style2
-/*Software*/
-
-    {
-    color: #316e9d;
-    border: 5px solid #316e9d;
 }
 #three.style2 h3 {
     color: #316e9d;
 }
-#three.style3
-/*AutoDissem*/
-
-    {
-    color: #577a72;
-    border: 5px solid #577a72;
-}
 #three.style3 h3 {
     color: #577a72;
-}
-#three.style4
-/*Cyber*/
-
-    {
-    color: #629bbd;
-    border: 5px solid #629bbd;
 }
 #three.style4 h3 {
     color: #629bbd;
 }
-#three.style5
-/*DataScience*/
-
-    {
-    color: #75b1a5;
-    border: 5px solid #75b1a5;
-}
 #three.style5 h3 {
     color: #75b1a5;
+}
+/* #Three - Box Borders */
+#three.benefits    {
+    color: #7d7d7d;
+    border: 5px solid #b45364;
+}
+#three.style1    {
+    color: #7d7d7d;
+    border: 5px solid #7d7d7d;
+}
+#three.style2    {
+    color: #316e9d;
+    border: 5px solid #316e9d;
+}
+#three.style3    {
+    color: #577a72;
+    border: 5px solid #577a72;
+}
+#three.style4    {
+    color: #629bbd;
+    border: 5px solid #629bbd;
+}
+#three.style5    {
+    color: #75b1a5;
+    border: 5px solid #75b1a5;
 }
 .three.half> :first-child {
     border-right-width: 2px;
@@ -1247,6 +1086,7 @@ ul.jobid li {
 #four h3 {
     padding-top: 1em;
     padding-bottom: 0;
+	margin-bottom: 0px;
 }
 #four li {
     color: #3d3d3d;
@@ -1273,6 +1113,42 @@ ul.jobid li {
     border-width: 0px;
     width: 100%;
     padding-bottom: 0;
+}
+/* #Four - Team */
+
+h4#name {
+    font-weight: 800;
+}
+.team {
+    display: -moz-inline-flex;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flex;
+    display: inline-flex;
+    padding-bottom: 0;
+    width: 100%;
+}
+.team> :first-child {
+    border-right-width: 2px;
+    border-color: #b45364;
+    border-style: solid;
+    border-radius: 0px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0em 1em;
+}
+.team> :last-child {
+    border-width: 0px;
+    width: 100%;
+    padding: 0em 1em;
+}
+.team.image {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 25%;
+    border-radius: 50%;
 }
 /* Footer */
 
@@ -1311,9 +1187,6 @@ p.copyright a:hover {
 }
 /* Social Icons Footer */
 
-.social {
-}
-
 ul.social-icons li {
     width: 35%;
     font-size: 2em;
@@ -1321,8 +1194,7 @@ ul.social-icons li {
 }
 
 ul.social-icons li a {
-    
-    color: #b45364;
+     color: #b45364;
 }
 
 ul.social-icons li a:hover {
@@ -1509,6 +1381,9 @@ ul.social-icons {
     div.inner {
         padding: 1em;
     }
+	div.inner-footer {
+		padding: 1em 1em;
+	}
     body {
         margin-top: -4em;
     }
@@ -1549,10 +1424,6 @@ ul.social-icons {
         border-bottom: 3px solid #b45364;
         padding-bottom: 5px;
     }
-	
-	div.inner-footer {
-		padding: 1em 1em 1em 1em;
-	}
 }
 /* max-width: 360 */
 
