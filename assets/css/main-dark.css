@@ -560,6 +560,7 @@ body.is-preload #main>header .logo {
     font-weight: 700;
     padding: 1%;
 }
+
 #header>nav>ul {
     list-style: none;
     padding: 0;
@@ -636,6 +637,10 @@ body.is-preload #main>header .logo {
     margin: auto;
     margin-top: -3px;
     vertical-align: middle;
+}
+#bigleaf {
+    margin: auto;
+	display: none;
 }
 .logo {
     text-decoration: none;
@@ -1255,6 +1260,10 @@ ul.social-icons {
         width: 35%;
         margin-bottom: -1em;
     }
+	#bigleaf {
+    width: 8%;
+	display: block;
+}
     .tiles article {
         width: 15%;
     }
@@ -1313,6 +1322,10 @@ ul.social-icons {
     #erias {
         width: 45%;
     }
+	#bigleaf {
+    width: 8%;
+	display: block;
+}
     .share {
         flex-direction: column;
     }
@@ -1378,6 +1391,10 @@ ul.social-icons {
     #one h2 {
         margin: 0;
     }
+	#bigleaf {
+    width: 10%;
+	display: block;
+}
     div.inner {
         padding: 1em;
     }
@@ -1438,6 +1455,10 @@ ul.social-icons {
     body {
         margin-top: -4em;
     }
+	#bigleaf {
+		width: 13%;
+		display: block;
+}
     #erias {
         width: 70%;
     }
