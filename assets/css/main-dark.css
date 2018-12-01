@@ -493,6 +493,27 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
+
+#main>header .logo-leaf {
+    -moz-transition: -moz-transform 1s ease, opacity 1s ease-in-out;
+    -webkit-transition: -webkit-transform 1s ease, opacity 1s ease-in-out;
+    -ms-transition: -ms-transform 1s ease, opacity 1s ease-in-out;
+    transition: transform 1s ease, opacity 1s ease-in-out;
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+body.is-preload #main>header .logo-leaf {
+    -moz-transform: translateY(1em);
+    -webkit-transform: translateY(1em);
+    -ms-transform: translateY(1em);
+    transform: translateY(1em);
+    opacity: 0;
+}
+
 body.is-preload #main>header .logo {
     -moz-transform: translateY(1em);
     -webkit-transform: translateY(1em);
