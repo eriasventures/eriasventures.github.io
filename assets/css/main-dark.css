@@ -264,6 +264,13 @@ hr.major {
 .image.main img {
     width: 100%;
 }
+
+.dwlogo{
+    display: inline;
+	vertical-align: middle;
+    width: 40%;
+}
+
 /* List */
 
 ol {
