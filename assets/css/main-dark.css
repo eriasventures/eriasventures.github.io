@@ -1762,7 +1762,7 @@ table.alt tbody tr td {
 
 /* Button */
 
-input[type="button"], input[type="reset"], button, .button {
+input[type="reset"] {
     -moz-transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;
@@ -1782,6 +1782,26 @@ input[type="button"], input[type="reset"], button, .button {
     margin: 0 auto;
     font-size: 0.9em;
     height: 2.5em;
+    line-height: 2.5em;
+}
+
+input[type="button"], button, .button {
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    background: #fff;
+    color: #b45364;
+    border: 2px solid #3d3d3d;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    border-radius: 0.35em;
+    outline: 0;
+    cursor: pointer;
+    margin: 0 auto;
     line-height: 2.5em;
 }
 
