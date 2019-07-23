@@ -1523,7 +1523,7 @@ ul.contact-icons {
     -ms-transition: -ms-transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
     transition: transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
     -webkit-overflow-scrolling: touch;
-    background-color: #2b2e3c;
+    background-color: #000000;
     box-shadow: none;
     display: none;
     height: 100%;
