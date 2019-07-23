@@ -1790,19 +1790,20 @@ input[type="button"], button, .button {
     -webkit-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
+    font-family: 'Source Sans Pro', serif;
+    font-size: 14pt;
+    line-height: 1.65;
+    letter-spacing: 0.05em;
     background: #fff;
     color: #b45364;
     border: 2px solid #3d3d3d;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 0.25em;
     text-decoration: none;
     border-radius: 0.35em;
     outline: 0;
     cursor: pointer;
     margin: 0 auto;
-    line-height: 2.5em;
 }
 
 input[type="submit"] {
