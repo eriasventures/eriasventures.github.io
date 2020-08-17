@@ -1070,6 +1070,11 @@ font.b {
   border: 2px solid #b45364;
 }
 
+#three.team {
+  color: #7d7d7d;
+  border: 2px solid #b45364;
+}
+
 #three.careers {
   color: #7d7d7d;
   border: 2px solid #b45364;
@@ -1200,6 +1205,26 @@ h4#name {
   padding: 0em 1em;
 }
 
+.team > :nth-child(3) {
+  border-right-width: 2px;
+  border-color: #b45364;
+  border-style: solid;
+  border-radius: 0px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0em 1em;
+}
+
+.team > :nth-child(4) {
+  border-right-width: 2px;
+  border-color: #b45364;
+  border-style: solid;
+  border-radius: 0px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0em 1em;
+}
+
 .team > :last-child {
   border-width: 0px;
   width: 100%;
@@ -1207,7 +1232,7 @@ h4#name {
 }
 
 .team.image {
-  width: 25%;
+  width: 50%;
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
@@ -1216,6 +1241,13 @@ h4#name {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.team p {
+    margin: 0 0 0 0 !important;
+    font-size: 0.80em;
+    text-align: center;
+    color: #3d3d3d;
 }
 
 /* Footer */
