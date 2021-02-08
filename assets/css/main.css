@@ -1186,7 +1186,7 @@ h4#name {
   display: -webkit-inline-flex;
   display: -ms-inline-flex;
   display: inline-flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding-bottom: 0;
   width: 100%;
 }
@@ -1205,7 +1205,7 @@ h4#name {
 }
 
 .team div {
-  width: 30%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
