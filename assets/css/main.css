@@ -136,8 +136,8 @@ html {
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out,
+    border-bottom-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out,
@@ -331,7 +331,7 @@ hr {
   display: block;
 }
 
-.sponsor-logo {
+.sponsorship-logo {
   display: inline;
   vertical-align: middle;
   width: 40%;
@@ -1212,10 +1212,10 @@ h4#name {
 }
 
 .team p {
-    margin: 0 0 0 0 !important;
-    font-size: 0.80em;
-    text-align: center;
-    color: #3d3d3d;
+  margin: 0 0 0 0 !important;
+  font-size: 0.8em;
+  text-align: center;
+  color: #3d3d3d;
 }
 
 .team h4 {
@@ -1650,8 +1650,10 @@ ul.sponsor-icons li {
   -webkit-transform: translateX(-20em);
   -ms-transform: translateX(-20em);
   transform: translateX(-20em);
-  -moz-transition: -moz-transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
-  -webkit-transition: -webkit-transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
+  -moz-transition: -moz-transform 0.2s ease, box-shadow 0.2s ease,
+    visibility 0.2s;
+  -webkit-transition: -webkit-transform 0.2s ease, box-shadow 0.2s ease,
+    visibility 0.2s;
   -ms-transition: -ms-transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
   transition: transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
   -webkit-overflow-scrolling: touch;
@@ -1962,7 +1964,7 @@ form textarea {
   width: 100%;
   padding: 0.75em 1em;
   margin-top: 0.3em;
-  color: #3d3d3d; 
+  color: #3d3d3d;
 }
 
 form input[type="text"]:focus,
@@ -1970,9 +1972,9 @@ form input[type="email"]:focus,
 form input[type="password"]:focus,
 form select:focus,
 form textarea:focus {
-  background: #eee;  
+  background: #eee;
   outline: none !important;
-  border:1px solid #b45364;
+  border: 1px solid #b45364;
   box-shadow: 0 0 2px #b45364;
 }
 
