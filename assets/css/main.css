@@ -337,6 +337,12 @@ hr {
   width: 40%;
 }
 
+.review-logo {
+  display: inline;
+  vertical-align: middle;
+  width: 2em;
+}
+
 /* List */
 
 ol {
