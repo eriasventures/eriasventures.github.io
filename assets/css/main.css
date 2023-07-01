@@ -1245,6 +1245,7 @@ h4#name {
   border-style: solid;
   width: 50%;
   padding-bottom: 0;
+  flex: 0 0 70%;
 }
 
 .footer.half > :last-child {
